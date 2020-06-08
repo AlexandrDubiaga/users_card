@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "users card",
+    "slug": "users",
+    "privacy":"public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/av.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cardo-company.users-card-app",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.cardo_company.users_card_app",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    }
+  }
+}
